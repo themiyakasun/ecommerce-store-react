@@ -45,7 +45,7 @@ const Navbar = () => {
       <div
         className={`transition-all duration-500 ease-[ease] ${
           showMenu ? 'h-[60vh]' : 'h-0'
-        } lg:hidden fixed overflow-hidden left-0 right-0 bg-black`}
+        } lg:hidden fixed overflow-hidden left-0 right-0 bg-white`}
       >
         <ul className='text-[#484848] text-center'>
           <li className='py-5'>

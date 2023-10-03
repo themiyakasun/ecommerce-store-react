@@ -24,3 +24,9 @@ body {
 .ff-secondary {
   font-family: 'Jost', sans-serif;
 }
+
+.text-outline {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #484848;
+  border: 0;
+}
