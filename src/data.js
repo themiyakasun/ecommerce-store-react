@@ -24,6 +24,9 @@ import {
   gallery_5,
   gallery_6,
   gallery_7,
+  testimonial_1,
+  testimonial_2,
+  testimonial_3,
 } from './assets';
 
 const logos = [
@@ -173,4 +176,31 @@ const gallery = [
   },
 ];
 
-export { logos, deals, newArrivals, features, gallery };
+const testimonials = [
+  {
+    id: 1,
+    img: testimonial_1,
+    name: 'James K.',
+    position: 'Traveler',
+    comment:
+      "You won't regret it. I would like to personally thank you for your outstanding product. Absolutely wonderful!",
+  },
+  {
+    id: 2,
+    img: testimonial_2,
+    name: 'Suzan B.',
+    position: 'UI Designer',
+    comment:
+      "Items That I ordered were the best investment I ever made. I can't say enough about your quality service.",
+  },
+  {
+    id: 3,
+    img: testimonial_3,
+    name: 'Megen W.',
+    position: 'UI Designer',
+    comment:
+      'Just what I was looking for. Thank you for making it painless, pleasant and most of all hassle free! All products are great.',
+  },
+];
+
+export { logos, deals, newArrivals, features, gallery, testimonials };

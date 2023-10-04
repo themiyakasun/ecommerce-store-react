@@ -42,6 +42,10 @@ import gallery_7 from './instagram_7.png';
 import newsletter_1 from './newsletter_1.png';
 import newsletter_2 from './newsletter_2.png';
 
+import testimonial_1 from './testimonial_1.png';
+import testimonial_2 from './testimonial_2.png';
+import testimonial_3 from './testimonial_3.png';
+
 export {
   header_1,
   header_2,
@@ -78,4 +82,7 @@ export {
   gallery_7,
   newsletter_1,
   newsletter_2,
+  testimonial_1,
+  testimonial_2,
+  testimonial_3,
 };

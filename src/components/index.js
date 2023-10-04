@@ -8,6 +8,7 @@ import PeakyBlindersSection from './PeakyBlindersSection';
 import FeaturesSection from './FeaturesSection';
 import Gallery from './Gallery';
 import NewsletterSection from './NewsletterSection';
+import TestimonialSection from './TestimonialSection';
 
 export {
   Header,
@@ -20,4 +21,5 @@ export {
   FeaturesSection,
   Gallery,
   NewsletterSection,
+  TestimonialSection,
 };

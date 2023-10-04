@@ -10,6 +10,7 @@ import {
   FeaturesSection,
   Gallery,
   NewsletterSection,
+  TestimonialSection,
 } from '../components';
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       <PeakyBlindersSection />
       <FeaturesSection />
       <Gallery />
+      <TestimonialSection />
       <NewsletterSection />
 
       <div>
