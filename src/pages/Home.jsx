@@ -9,6 +9,7 @@ import {
   PeakyBlindersSection,
   FeaturesSection,
   Gallery,
+  NewsletterSection,
 } from '../components';
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       <PeakyBlindersSection />
       <FeaturesSection />
       <Gallery />
+      <NewsletterSection />
 
       <div>
         <Footer />
