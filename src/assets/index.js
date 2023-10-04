@@ -21,6 +21,10 @@ import product_5 from './product_5.png';
 import product_6 from './product_6.png';
 
 import stars from './stars.png';
+import point_short from './point_1.svg';
+import point_long from './point_2.svg';
+
+import peaky_bliders from './peaky_blinders.png';
 
 export {
   header_1,
@@ -42,4 +46,7 @@ export {
   product_5,
   product_6,
   stars,
+  peaky_bliders,
+  point_short,
+  point_long,
 };

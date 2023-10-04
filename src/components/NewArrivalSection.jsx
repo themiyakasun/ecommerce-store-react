@@ -37,6 +37,12 @@ const NewArrivalSection = () => {
             <ArrivalCard {...item} />
           ))}
         </div>
+
+        <div className='flex justify-center items-center'>
+          <button className='px-11 py-5 bg-black text-white mt-5 rounded-[10px] shadow-[0px_20px_35px_0px_rgba(0,0,0,0.15)]'>
+            View More
+          </button>
+        </div>
       </div>
     </div>
   );

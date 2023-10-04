@@ -6,6 +6,7 @@ import {
   LogoSection,
   DealSection,
   NewArrivalSection,
+  PeakyBlindersSection,
 } from '../components';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <LogoSection />
       <DealSection />
       <NewArrivalSection />
+      <PeakyBlindersSection />
 
       <div>
         <Footer />
