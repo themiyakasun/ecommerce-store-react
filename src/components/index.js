@@ -5,6 +5,8 @@ import LogoSection from './LogoSection';
 import DealSection from './DealSection';
 import NewArrivalSection from './NewArrivalSection';
 import PeakyBlindersSection from './PeakyBlindersSection';
+import FeaturesSection from './FeaturesSection';
+import Gallery from './Gallery';
 
 export {
   Header,
@@ -14,4 +16,6 @@ export {
   DealSection,
   NewArrivalSection,
   PeakyBlindersSection,
+  FeaturesSection,
+  Gallery,
 };

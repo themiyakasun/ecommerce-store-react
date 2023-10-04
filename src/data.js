@@ -13,6 +13,17 @@ import {
   product_4,
   product_5,
   product_6,
+  feature_1,
+  feature_2,
+  feature_3,
+  feature_4,
+  gallery_1,
+  gallery_2,
+  gallery_3,
+  gallery_4,
+  gallery_5,
+  gallery_6,
+  gallery_7,
 } from './assets';
 
 const logos = [
@@ -104,4 +115,62 @@ const newArrivals = [
   },
 ];
 
-export { logos, deals, newArrivals };
+const features = [
+  {
+    id: 1,
+    img: feature_1,
+    title: 'High Quality',
+    description: 'crafted from top materials',
+  },
+  {
+    id: 2,
+    img: feature_2,
+    title: 'Warrany Protection',
+    description: 'Over 2 years',
+  },
+  {
+    id: 3,
+    img: feature_3,
+    title: 'Free Shipping',
+    description: 'Order over 150 $',
+  },
+  {
+    id: 4,
+    img: feature_4,
+    title: '24 / 7 Support',
+    description: 'Dedicated support',
+  },
+];
+
+const gallery = [
+  {
+    id: 1,
+    img: gallery_1,
+  },
+  {
+    id: 2,
+    img: gallery_2,
+  },
+  {
+    id: 3,
+    img: gallery_3,
+  },
+  {
+    id: 4,
+    img: gallery_4,
+  },
+  {
+    id: 5,
+    img: gallery_5,
+  },
+  {
+    id: 6,
+    img: gallery_6,
+  },
+  {
+    id: 7,
+    img: gallery_7,
+  },
+];
+
+export { logos, deals, newArrivals, features, gallery };

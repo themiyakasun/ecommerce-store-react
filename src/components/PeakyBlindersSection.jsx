@@ -4,7 +4,7 @@ import { peaky_bliders, point_short, point_long } from '../assets';
 
 const PeakyBlindersSection = () => {
   return (
-    <div className='mt-24'>
+    <div className='mt-24 overflow-hidden'>
       <div className='lg:flex flex-row-reverse'>
         <div className='relative lg:flex-[0_0_50%] lg:max-w-[50%] p-14 lg:pl-56 overflow-hidden w-full before:content-[" "] before:absolute before:left-[-20%] before:top-[40%] before:translate-y-[-40%] before:rotate-[15deg] before:w-[35%] before:h-[140%] before:border-2 before:border-black'>
           <div className='flex flex-col gap-5'>

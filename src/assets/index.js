@@ -26,6 +26,19 @@ import point_long from './point_2.svg';
 
 import peaky_bliders from './peaky_blinders.png';
 
+import feature_1 from './quality.png';
+import feature_2 from './warranty.png';
+import feature_3 from './shipping.png';
+import feature_4 from './call.png';
+
+import gallery_1 from './instagram_1.png';
+import gallery_2 from './instagram_2.png';
+import gallery_3 from './instagram_3.png';
+import gallery_4 from './instagram_4.png';
+import gallery_5 from './instagram_5.png';
+import gallery_6 from './instagram_6.png';
+import gallery_7 from './instagram_7.png';
+
 export {
   header_1,
   header_2,
@@ -49,4 +62,15 @@ export {
   peaky_bliders,
   point_short,
   point_long,
+  feature_1,
+  feature_2,
+  feature_3,
+  feature_4,
+  gallery_1,
+  gallery_2,
+  gallery_3,
+  gallery_4,
+  gallery_5,
+  gallery_6,
+  gallery_7,
 };

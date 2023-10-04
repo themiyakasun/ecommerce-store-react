@@ -7,6 +7,8 @@ import {
   DealSection,
   NewArrivalSection,
   PeakyBlindersSection,
+  FeaturesSection,
+  Gallery,
 } from '../components';
 
 const Home = () => {
@@ -20,6 +22,8 @@ const Home = () => {
       <DealSection />
       <NewArrivalSection />
       <PeakyBlindersSection />
+      <FeaturesSection />
+      <Gallery />
 
       <div>
         <Footer />
