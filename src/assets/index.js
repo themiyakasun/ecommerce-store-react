@@ -13,6 +13,15 @@ import carousel_1 from './carousel_1.png';
 import carousel_2 from './carousel_2.png';
 import carousel_3 from './carousel_3.png';
 
+import product_1 from './product_1.png';
+import product_2 from './product_2.png';
+import product_3 from './product_3.png';
+import product_4 from './product_4.png';
+import product_5 from './product_5.png';
+import product_6 from './product_6.png';
+
+import stars from './stars.png';
+
 export {
   header_1,
   header_2,
@@ -26,4 +35,11 @@ export {
   carousel_1,
   carousel_2,
   carousel_3,
+  product_1,
+  product_2,
+  product_3,
+  product_4,
+  product_5,
+  product_6,
+  stars,
 };

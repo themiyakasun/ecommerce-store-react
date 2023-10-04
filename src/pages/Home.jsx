@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { Header, Footer, LogoSection, DealSection } from '../components';
+import {
+  Header,
+  Footer,
+  LogoSection,
+  DealSection,
+  NewArrivalSection,
+} from '../components';
 
 const Home = () => {
   return (
@@ -11,6 +17,7 @@ const Home = () => {
 
       <LogoSection />
       <DealSection />
+      <NewArrivalSection />
 
       <div>
         <Footer />

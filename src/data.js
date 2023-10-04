@@ -7,6 +7,12 @@ import {
   carousel_1,
   carousel_2,
   carousel_3,
+  product_1,
+  product_2,
+  product_3,
+  product_4,
+  product_5,
+  product_6,
 } from './assets';
 
 const logos = [
@@ -47,4 +53,55 @@ const deals = [
   },
 ];
 
-export { logos, deals };
+const newArrivals = [
+  {
+    id: 1,
+    img: product_1,
+    title: 'Shiny Dress',
+    brand: 'Al Karam',
+    reviews: '(4.1k) Customer Reviews',
+    price: '$95.50',
+  },
+  {
+    id: 2,
+    img: product_2,
+    title: 'Long Dress',
+    brand: 'Al Karam',
+    reviews: '(4.1k) Customer Reviews',
+    price: '$95.50',
+  },
+  {
+    id: 3,
+    img: product_3,
+    title: 'Full Sweater',
+    brand: 'Al Karam',
+    reviews: '(4.1k) Customer Reviews',
+    price: '$95.50',
+  },
+  {
+    id: 4,
+    img: product_4,
+    title: 'White Dress',
+    brand: 'Al Karam',
+    reviews: '(4.1k) Customer Reviews',
+    price: '$95.50',
+  },
+  {
+    id: 5,
+    img: product_5,
+    title: 'Colorful Dress',
+    brand: 'Al Karam',
+    reviews: '(4.1k) Customer Reviews',
+    price: '$95.50',
+  },
+  {
+    id: 6,
+    img: product_6,
+    title: 'White Shirt',
+    brand: 'Al Karam',
+    reviews: '(4.1k) Customer Reviews',
+    price: '$95.50',
+  },
+];
+
+export { logos, deals, newArrivals };
