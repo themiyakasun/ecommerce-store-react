@@ -1,4 +1,13 @@
-import { logo_1, logo_2, logo_3, logo_4, logo_5 } from './assets';
+import {
+  logo_1,
+  logo_2,
+  logo_3,
+  logo_4,
+  logo_5,
+  carousel_1,
+  carousel_2,
+  carousel_3,
+} from './assets';
 
 const logos = [
   {
@@ -23,4 +32,19 @@ const logos = [
   },
 ];
 
-export { logos };
+const deals = [
+  {
+    id: 1,
+    img: carousel_1,
+  },
+  {
+    id: 2,
+    img: carousel_2,
+  },
+  {
+    id: 3,
+    img: carousel_3,
+  },
+];
+
+export { logos, deals };

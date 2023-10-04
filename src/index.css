@@ -31,3 +31,33 @@ body {
   -webkit-text-stroke: 1px #484848;
   border: 0;
 }
+
+.active-item {
+  left: 470px;
+}
+
+.next-item {
+  left: calc(470px + 424px);
+  height: 486px;
+}
+
+.last-item {
+  left: calc(470px + 848px);
+  height: 486px;
+}
+
+@media (max-width: 1023px) {
+  .active-item {
+    left: 0;
+  }
+
+  .next-item {
+    left: calc(100% + 234px);
+    height: 486px;
+  }
+
+  .last-item {
+    left: calc(100% + 468px);
+    height: 486px;
+  }
+}
