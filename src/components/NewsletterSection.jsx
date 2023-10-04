@@ -7,11 +7,11 @@ const NewsletterSection = () => {
     <div className='bg-primaryBg'>
       <div className='sm:px-32 px-6 py-10 mt-24'>
         <div className='lg:flex justify-between items-center'>
-          <div className='lg:flex-[0_0_25%] lg:max-w-[25%] md:flex-[0_0_50%] md:max-w-[50%] px-[15px] mx-[-15px] lg:mb-0 mb-10'>
+          <div className='lg:flex-[0_0_25%] lg:max-w-[25%]  px-[15px] mx-[-15px] lg:mb-0 mb-10'>
             <img src={newsletter_1} alt='' />
           </div>
 
-          <div className='lg:flex-[0_0_50%] lg:max-w-[50%] md:flex-[0_0_50%] md:max-w-[50%] px-[15px] mx-[-15px]'>
+          <div className='lg:flex-[0_0_50%] lg:max-w-[50%] px-[15px] mx-[-15px]'>
             <h2 className='text-4xl ff-heading text-center'>
               Subscribe To Our Newsletter
             </h2>
@@ -38,7 +38,7 @@ const NewsletterSection = () => {
             </form>
           </div>
 
-          <div className='lg:flex-[0_0_25%] lg:max-w-[25%] md:flex-[0_0_50%] md:max-w-[50%] px-[15px] mx-[-15px] lg:mt-0 mt-10'>
+          <div className='lg:flex-[0_0_25%] lg:max-w-[25%]  px-[15px] mx-[-15px] lg:mt-0 mt-10'>
             <img src={newsletter_2} alt='' />
           </div>
         </div>
