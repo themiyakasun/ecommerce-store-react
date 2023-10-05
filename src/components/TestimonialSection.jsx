@@ -53,7 +53,7 @@ const TestimonialSection = () => {
             duis
           </p>
 
-          <div className='mt-40 lg:w-[600px] lg:h-[400px] h-[800px] mx-auto'>
+          <div className='mt-40 lg:w-[600px] lg:h-[500px] h-[800px] mx-auto'>
             <Slider {...settings}>
               {testimonials.map((testimonial) => (
                 <TestimonialCard {...testimonial} />
